@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HockeySim
 {
-    public partial class Form1 : Form
+    public partial class DefaultForm : Form
     {
-        public Form1()
+        public DefaultForm()
         {
             InitializeComponent();
         }

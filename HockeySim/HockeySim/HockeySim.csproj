@@ -45,23 +45,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="DefaultForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="DefaultForm.Designer.cs">
+      <DependentUpon>DefaultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayoffBracketT4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayoffBracketT4.Designer.cs">
+      <DependentUpon>PlayoffBracketT4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayoffBracketT8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayoffBracketT8.Designer.cs">
+      <DependentUpon>PlayoffBracketT8.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DefaultForm.resx">
+      <DependentUpon>DefaultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayoffBracketT4.resx">
+      <DependentUpon>PlayoffBracketT4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayoffBracketT8.resx">
+      <DependentUpon>PlayoffBracketT8.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -74,6 +90,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BracketT4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BracketT8_Large.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

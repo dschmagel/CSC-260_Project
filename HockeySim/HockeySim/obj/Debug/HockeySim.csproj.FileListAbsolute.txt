@@ -1,0 +1,10 @@
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\CSC-360_Project\HockeySim\HockeySim\bin\Debug\HockeySim.exe.config
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\CSC-360_Project\HockeySim\HockeySim\bin\Debug\HockeySim.exe
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\CSC-360_Project\HockeySim\HockeySim\bin\Debug\HockeySim.pdb
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\CSC-360_Project\HockeySim\HockeySim\obj\Debug\HockeySim.csprojResolveAssemblyReference.cache
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\CSC-360_Project\HockeySim\HockeySim\obj\Debug\HockeySim.DefaultForm.resources
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\CSC-360_Project\HockeySim\HockeySim\obj\Debug\HockeySim.Properties.Resources.resources
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\CSC-360_Project\HockeySim\HockeySim\obj\Debug\HockeySim.csproj.GenerateResource.cache
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\CSC-360_Project\HockeySim\HockeySim\obj\Debug\HockeySim.csproj.CoreCompileInputs.cache
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\CSC-360_Project\HockeySim\HockeySim\obj\Debug\HockeySim.exe
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\CSC-360_Project\HockeySim\HockeySim\obj\Debug\HockeySim.pdb
