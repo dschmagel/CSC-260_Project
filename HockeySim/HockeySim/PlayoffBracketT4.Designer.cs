@@ -126,7 +126,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "PlayoffBracketT4";
-            this.Text = "Form1";
+            this.Text = "Playoff_T4";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

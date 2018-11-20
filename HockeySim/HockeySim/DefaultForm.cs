@@ -16,5 +16,40 @@ namespace HockeySim
         {
             InitializeComponent();
         }
+
+        private void Button_InputTeams_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_NumRegGames_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_EliminationStyle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_SimRegSeason_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_SimPlayoffRound_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_ShowStandings_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_ShowBracket_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

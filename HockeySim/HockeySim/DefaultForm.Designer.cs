@@ -33,14 +33,14 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.Button_InputTeams = new System.Windows.Forms.Button();
+            this.Button_NumRegGames = new System.Windows.Forms.Button();
+            this.Button_BracketSize = new System.Windows.Forms.Button();
+            this.Button_EliminationStyle = new System.Windows.Forms.Button();
+            this.Button_SimRegSeason = new System.Windows.Forms.Button();
+            this.Button_SimPlayoffRound = new System.Windows.Forms.Button();
+            this.Button_ShowStandings = new System.Windows.Forms.Button();
+            this.Button_ShowBracket = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -76,77 +76,84 @@
             this.textBox1.Size = new System.Drawing.Size(180, 26);
             this.textBox1.TabIndex = 3;
             // 
-            // button1
+            // Button_InputTeams
             // 
-            this.button1.Location = new System.Drawing.Point(51, 232);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(181, 42);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Button_InputTeams.Location = new System.Drawing.Point(51, 232);
+            this.Button_InputTeams.Name = "Button_InputTeams";
+            this.Button_InputTeams.Size = new System.Drawing.Size(181, 42);
+            this.Button_InputTeams.TabIndex = 4;
+            this.Button_InputTeams.Text = "Input Teams";
+            this.Button_InputTeams.UseVisualStyleBackColor = true;
+            this.Button_InputTeams.Click += new System.EventHandler(this.Button_InputTeams_Click);
             // 
-            // button2
+            // Button_NumRegGames
             // 
-            this.button2.Location = new System.Drawing.Point(51, 373);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(181, 42);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Button_NumRegGames.Location = new System.Drawing.Point(51, 373);
+            this.Button_NumRegGames.Name = "Button_NumRegGames";
+            this.Button_NumRegGames.Size = new System.Drawing.Size(181, 70);
+            this.Button_NumRegGames.TabIndex = 5;
+            this.Button_NumRegGames.Text = "Select Number of Regular Season Games";
+            this.Button_NumRegGames.UseVisualStyleBackColor = true;
+            this.Button_NumRegGames.Click += new System.EventHandler(this.Button_NumRegGames_Click);
             // 
-            // button3
+            // Button_BracketSize
             // 
-            this.button3.Location = new System.Drawing.Point(50, 523);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(181, 42);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Button_BracketSize.Location = new System.Drawing.Point(50, 523);
+            this.Button_BracketSize.Name = "Button_BracketSize";
+            this.Button_BracketSize.Size = new System.Drawing.Size(181, 42);
+            this.Button_BracketSize.TabIndex = 6;
+            this.Button_BracketSize.Text = "Select Bracket Size";
+            this.Button_BracketSize.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // Button_EliminationStyle
             // 
-            this.button4.Location = new System.Drawing.Point(50, 645);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(181, 42);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.Button_EliminationStyle.Location = new System.Drawing.Point(50, 645);
+            this.Button_EliminationStyle.Name = "Button_EliminationStyle";
+            this.Button_EliminationStyle.Size = new System.Drawing.Size(181, 42);
+            this.Button_EliminationStyle.TabIndex = 7;
+            this.Button_EliminationStyle.Text = "Select Elimination Style";
+            this.Button_EliminationStyle.UseVisualStyleBackColor = true;
+            this.Button_EliminationStyle.Click += new System.EventHandler(this.Button_EliminationStyle_Click);
             // 
-            // button5
+            // Button_SimRegSeason
             // 
-            this.button5.Location = new System.Drawing.Point(50, 731);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(238, 65);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.Button_SimRegSeason.Location = new System.Drawing.Point(50, 731);
+            this.Button_SimRegSeason.Name = "Button_SimRegSeason";
+            this.Button_SimRegSeason.Size = new System.Drawing.Size(238, 65);
+            this.Button_SimRegSeason.TabIndex = 8;
+            this.Button_SimRegSeason.Text = "Simulate Regular Season";
+            this.Button_SimRegSeason.UseVisualStyleBackColor = true;
+            this.Button_SimRegSeason.Click += new System.EventHandler(this.Button_SimRegSeason_Click);
             // 
-            // button6
+            // Button_SimPlayoffRound
             // 
-            this.button6.Location = new System.Drawing.Point(51, 816);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(238, 65);
-            this.button6.TabIndex = 9;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.Button_SimPlayoffRound.Location = new System.Drawing.Point(51, 816);
+            this.Button_SimPlayoffRound.Name = "Button_SimPlayoffRound";
+            this.Button_SimPlayoffRound.Size = new System.Drawing.Size(238, 65);
+            this.Button_SimPlayoffRound.TabIndex = 9;
+            this.Button_SimPlayoffRound.Text = "Simulate Playoff Round";
+            this.Button_SimPlayoffRound.UseVisualStyleBackColor = true;
+            this.Button_SimPlayoffRound.Click += new System.EventHandler(this.Button_SimPlayoffRound_Click);
             // 
-            // button7
+            // Button_ShowStandings
             // 
-            this.button7.Location = new System.Drawing.Point(332, 768);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(181, 42);
-            this.button7.TabIndex = 10;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.Button_ShowStandings.Location = new System.Drawing.Point(332, 768);
+            this.Button_ShowStandings.Name = "Button_ShowStandings";
+            this.Button_ShowStandings.Size = new System.Drawing.Size(181, 42);
+            this.Button_ShowStandings.TabIndex = 10;
+            this.Button_ShowStandings.Text = "Show Standings";
+            this.Button_ShowStandings.UseVisualStyleBackColor = true;
+            this.Button_ShowStandings.Click += new System.EventHandler(this.Button_ShowStandings_Click);
             // 
-            // button8
+            // Button_ShowBracket
             // 
-            this.button8.Location = new System.Drawing.Point(332, 816);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(181, 42);
-            this.button8.TabIndex = 11;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.Button_ShowBracket.Location = new System.Drawing.Point(332, 816);
+            this.Button_ShowBracket.Name = "Button_ShowBracket";
+            this.Button_ShowBracket.Size = new System.Drawing.Size(181, 42);
+            this.Button_ShowBracket.TabIndex = 11;
+            this.Button_ShowBracket.Text = "Show Bracket";
+            this.Button_ShowBracket.UseVisualStyleBackColor = true;
+            this.Button_ShowBracket.Click += new System.EventHandler(this.Button_ShowBracket_Click);
             // 
             // pictureBox1
             // 
@@ -163,14 +170,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1269, 917);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Button_ShowBracket);
+            this.Controls.Add(this.Button_ShowStandings);
+            this.Controls.Add(this.Button_SimPlayoffRound);
+            this.Controls.Add(this.Button_SimRegSeason);
+            this.Controls.Add(this.Button_EliminationStyle);
+            this.Controls.Add(this.Button_BracketSize);
+            this.Controls.Add(this.Button_NumRegGames);
+            this.Controls.Add(this.Button_InputTeams);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
@@ -189,14 +196,14 @@
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button Button_InputTeams;
+        private System.Windows.Forms.Button Button_NumRegGames;
+        private System.Windows.Forms.Button Button_BracketSize;
+        private System.Windows.Forms.Button Button_EliminationStyle;
+        private System.Windows.Forms.Button Button_SimRegSeason;
+        private System.Windows.Forms.Button Button_SimPlayoffRound;
+        private System.Windows.Forms.Button Button_ShowStandings;
+        private System.Windows.Forms.Button Button_ShowBracket;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
