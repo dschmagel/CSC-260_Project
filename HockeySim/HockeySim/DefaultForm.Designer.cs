@@ -51,7 +51,7 @@
             // 
             this.Drop_NumRegGames.FormattingEnabled = true;
             this.Drop_NumRegGames.Items.AddRange(new object[] {
-            " e Times",
+            " 4 Times",
             "6 Times",
             "8 Times",
             "10 Times",
@@ -137,9 +137,9 @@
             // 
             // Button_SimRegSeason
             // 
-            this.Button_SimRegSeason.Location = new System.Drawing.Point(56, 641);
+            this.Button_SimRegSeason.Location = new System.Drawing.Point(57, 646);
             this.Button_SimRegSeason.Name = "Button_SimRegSeason";
-            this.Button_SimRegSeason.Size = new System.Drawing.Size(238, 65);
+            this.Button_SimRegSeason.Size = new System.Drawing.Size(278, 146);
             this.Button_SimRegSeason.TabIndex = 8;
             this.Button_SimRegSeason.Text = "Simulate Regular Season";
             this.Button_SimRegSeason.UseVisualStyleBackColor = true;
@@ -147,9 +147,9 @@
             // 
             // Button_SimPlayoffRound
             // 
-            this.Button_SimPlayoffRound.Location = new System.Drawing.Point(57, 726);
+            this.Button_SimPlayoffRound.Location = new System.Drawing.Point(378, 646);
             this.Button_SimPlayoffRound.Name = "Button_SimPlayoffRound";
-            this.Button_SimPlayoffRound.Size = new System.Drawing.Size(238, 65);
+            this.Button_SimPlayoffRound.Size = new System.Drawing.Size(314, 146);
             this.Button_SimPlayoffRound.TabIndex = 9;
             this.Button_SimPlayoffRound.Text = "Simulate Playoff Round";
             this.Button_SimPlayoffRound.UseVisualStyleBackColor = true;
@@ -157,9 +157,9 @@
             // 
             // Button_ShowStandings
             // 
-            this.Button_ShowStandings.Location = new System.Drawing.Point(344, 664);
+            this.Button_ShowStandings.Location = new System.Drawing.Point(736, 646);
             this.Button_ShowStandings.Name = "Button_ShowStandings";
-            this.Button_ShowStandings.Size = new System.Drawing.Size(181, 42);
+            this.Button_ShowStandings.Size = new System.Drawing.Size(207, 62);
             this.Button_ShowStandings.TabIndex = 10;
             this.Button_ShowStandings.Text = "Show Standings";
             this.Button_ShowStandings.UseVisualStyleBackColor = true;
@@ -167,9 +167,9 @@
             // 
             // Button_ShowBracket
             // 
-            this.Button_ShowBracket.Location = new System.Drawing.Point(344, 712);
+            this.Button_ShowBracket.Location = new System.Drawing.Point(736, 729);
             this.Button_ShowBracket.Name = "Button_ShowBracket";
-            this.Button_ShowBracket.Size = new System.Drawing.Size(181, 42);
+            this.Button_ShowBracket.Size = new System.Drawing.Size(207, 63);
             this.Button_ShowBracket.TabIndex = 11;
             this.Button_ShowBracket.Text = "Show Bracket";
             this.Button_ShowBracket.UseVisualStyleBackColor = true;
