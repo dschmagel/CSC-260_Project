@@ -51,5 +51,25 @@ namespace HockeySim
         {
 
         }
+
+        private void TextBox_InputTeams_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Drop_NumRegGames_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Drop_SelectBracket_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Drop__EliminationStyle_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

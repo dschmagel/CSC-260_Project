@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DefaultForm));
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Drop_NumRegGames = new System.Windows.Forms.ComboBox();
+            this.Drop__EliminationStyle = new System.Windows.Forms.ComboBox();
+            this.Drop_SelectBracket = new System.Windows.Forms.ComboBox();
+            this.TextBox_InputTeams = new System.Windows.Forms.TextBox();
             this.Button_InputTeams = new System.Windows.Forms.Button();
             this.Button_NumRegGames = new System.Windows.Forms.Button();
             this.Button_BracketSize = new System.Windows.Forms.Button();
@@ -45,40 +45,44 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // Drop_NumRegGames
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(50, 323);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(181, 28);
-            this.comboBox1.TabIndex = 0;
+            this.Drop_NumRegGames.FormattingEnabled = true;
+            this.Drop_NumRegGames.Location = new System.Drawing.Point(56, 155);
+            this.Drop_NumRegGames.Name = "Drop_NumRegGames";
+            this.Drop_NumRegGames.Size = new System.Drawing.Size(181, 28);
+            this.Drop_NumRegGames.TabIndex = 0;
+            this.Drop_NumRegGames.SelectedIndexChanged += new System.EventHandler(this.Drop_NumRegGames_SelectedIndexChanged);
             // 
-            // comboBox2
+            // Drop__EliminationStyle
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(51, 582);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(181, 28);
-            this.comboBox2.TabIndex = 1;
+            this.Drop__EliminationStyle.FormattingEnabled = true;
+            this.Drop__EliminationStyle.Location = new System.Drawing.Point(57, 430);
+            this.Drop__EliminationStyle.Name = "Drop__EliminationStyle";
+            this.Drop__EliminationStyle.Size = new System.Drawing.Size(181, 28);
+            this.Drop__EliminationStyle.TabIndex = 1;
+            this.Drop__EliminationStyle.SelectedIndexChanged += new System.EventHandler(this.Drop__EliminationStyle_SelectedIndexChanged);
             // 
-            // comboBox3
+            // Drop_SelectBracket
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(51, 476);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(181, 28);
-            this.comboBox3.TabIndex = 2;
+            this.Drop_SelectBracket.FormattingEnabled = true;
+            this.Drop_SelectBracket.Location = new System.Drawing.Point(57, 304);
+            this.Drop_SelectBracket.Name = "Drop_SelectBracket";
+            this.Drop_SelectBracket.Size = new System.Drawing.Size(181, 28);
+            this.Drop_SelectBracket.TabIndex = 2;
+            this.Drop_SelectBracket.SelectedIndexChanged += new System.EventHandler(this.Drop_SelectBracket_SelectedIndexChanged);
             // 
-            // textBox1
+            // TextBox_InputTeams
             // 
-            this.textBox1.Location = new System.Drawing.Point(51, 179);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 26);
-            this.textBox1.TabIndex = 3;
+            this.TextBox_InputTeams.Location = new System.Drawing.Point(56, 30);
+            this.TextBox_InputTeams.Name = "TextBox_InputTeams";
+            this.TextBox_InputTeams.Size = new System.Drawing.Size(180, 26);
+            this.TextBox_InputTeams.TabIndex = 3;
+            this.TextBox_InputTeams.TextChanged += new System.EventHandler(this.TextBox_InputTeams_TextChanged);
             // 
             // Button_InputTeams
             // 
-            this.Button_InputTeams.Location = new System.Drawing.Point(51, 232);
+            this.Button_InputTeams.Location = new System.Drawing.Point(57, 78);
             this.Button_InputTeams.Name = "Button_InputTeams";
             this.Button_InputTeams.Size = new System.Drawing.Size(181, 42);
             this.Button_InputTeams.TabIndex = 4;
@@ -88,7 +92,7 @@
             // 
             // Button_NumRegGames
             // 
-            this.Button_NumRegGames.Location = new System.Drawing.Point(51, 373);
+            this.Button_NumRegGames.Location = new System.Drawing.Point(57, 201);
             this.Button_NumRegGames.Name = "Button_NumRegGames";
             this.Button_NumRegGames.Size = new System.Drawing.Size(181, 70);
             this.Button_NumRegGames.TabIndex = 5;
@@ -98,7 +102,7 @@
             // 
             // Button_BracketSize
             // 
-            this.Button_BracketSize.Location = new System.Drawing.Point(50, 523);
+            this.Button_BracketSize.Location = new System.Drawing.Point(56, 351);
             this.Button_BracketSize.Name = "Button_BracketSize";
             this.Button_BracketSize.Size = new System.Drawing.Size(181, 42);
             this.Button_BracketSize.TabIndex = 6;
@@ -107,7 +111,7 @@
             // 
             // Button_EliminationStyle
             // 
-            this.Button_EliminationStyle.Location = new System.Drawing.Point(50, 645);
+            this.Button_EliminationStyle.Location = new System.Drawing.Point(56, 473);
             this.Button_EliminationStyle.Name = "Button_EliminationStyle";
             this.Button_EliminationStyle.Size = new System.Drawing.Size(181, 42);
             this.Button_EliminationStyle.TabIndex = 7;
@@ -117,7 +121,7 @@
             // 
             // Button_SimRegSeason
             // 
-            this.Button_SimRegSeason.Location = new System.Drawing.Point(50, 731);
+            this.Button_SimRegSeason.Location = new System.Drawing.Point(56, 641);
             this.Button_SimRegSeason.Name = "Button_SimRegSeason";
             this.Button_SimRegSeason.Size = new System.Drawing.Size(238, 65);
             this.Button_SimRegSeason.TabIndex = 8;
@@ -127,7 +131,7 @@
             // 
             // Button_SimPlayoffRound
             // 
-            this.Button_SimPlayoffRound.Location = new System.Drawing.Point(51, 816);
+            this.Button_SimPlayoffRound.Location = new System.Drawing.Point(57, 726);
             this.Button_SimPlayoffRound.Name = "Button_SimPlayoffRound";
             this.Button_SimPlayoffRound.Size = new System.Drawing.Size(238, 65);
             this.Button_SimPlayoffRound.TabIndex = 9;
@@ -137,7 +141,7 @@
             // 
             // Button_ShowStandings
             // 
-            this.Button_ShowStandings.Location = new System.Drawing.Point(332, 768);
+            this.Button_ShowStandings.Location = new System.Drawing.Point(344, 664);
             this.Button_ShowStandings.Name = "Button_ShowStandings";
             this.Button_ShowStandings.Size = new System.Drawing.Size(181, 42);
             this.Button_ShowStandings.TabIndex = 10;
@@ -147,7 +151,7 @@
             // 
             // Button_ShowBracket
             // 
-            this.Button_ShowBracket.Location = new System.Drawing.Point(332, 816);
+            this.Button_ShowBracket.Location = new System.Drawing.Point(344, 712);
             this.Button_ShowBracket.Name = "Button_ShowBracket";
             this.Button_ShowBracket.Size = new System.Drawing.Size(181, 42);
             this.Button_ShowBracket.TabIndex = 11;
@@ -158,9 +162,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(600, 206);
+            this.pictureBox1.Location = new System.Drawing.Point(273, 27);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(630, 471);
+            this.pictureBox1.Size = new System.Drawing.Size(869, 570);
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
@@ -168,7 +172,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1269, 917);
+            this.ClientSize = new System.Drawing.Size(1180, 845);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Button_ShowBracket);
             this.Controls.Add(this.Button_ShowStandings);
@@ -178,10 +182,10 @@
             this.Controls.Add(this.Button_BracketSize);
             this.Controls.Add(this.Button_NumRegGames);
             this.Controls.Add(this.Button_InputTeams);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.TextBox_InputTeams);
+            this.Controls.Add(this.Drop_SelectBracket);
+            this.Controls.Add(this.Drop__EliminationStyle);
+            this.Controls.Add(this.Drop_NumRegGames);
             this.Name = "DefaultForm";
             this.Text = "Hockey Sim";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -192,10 +196,10 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox Drop_NumRegGames;
+        private System.Windows.Forms.ComboBox Drop__EliminationStyle;
+        private System.Windows.Forms.ComboBox Drop_SelectBracket;
+        private System.Windows.Forms.TextBox TextBox_InputTeams;
         private System.Windows.Forms.Button Button_InputTeams;
         private System.Windows.Forms.Button Button_NumRegGames;
         private System.Windows.Forms.Button Button_BracketSize;
