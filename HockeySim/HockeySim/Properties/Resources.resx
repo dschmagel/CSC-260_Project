@@ -118,22 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="BracketT4_Large" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BracketT4_Large.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BracketT16_Large" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BracketT16_Large.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="BracketT4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BracketT4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BracketT4_Large1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BracketT4_Large1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="BracketT8_Large" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BracketT8_Large.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Form-Puck_Clipart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Form-Puck_Clipart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

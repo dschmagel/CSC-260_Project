@@ -42,13 +42,21 @@
             this.Button_ShowStandings = new System.Windows.Forms.Button();
             this.Button_ShowBracket = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Button_NumTeams = new System.Windows.Forms.Button();
+            this.Drop_NumTeams = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Drop_NumRegGames
             // 
             this.Drop_NumRegGames.FormattingEnabled = true;
-            this.Drop_NumRegGames.Location = new System.Drawing.Point(56, 155);
+            this.Drop_NumRegGames.Items.AddRange(new object[] {
+            " e Times",
+            "6 Times",
+            "8 Times",
+            "10 Times",
+            "12 Times"});
+            this.Drop_NumRegGames.Location = new System.Drawing.Point(56, 261);
             this.Drop_NumRegGames.Name = "Drop_NumRegGames";
             this.Drop_NumRegGames.Size = new System.Drawing.Size(181, 28);
             this.Drop_NumRegGames.TabIndex = 0;
@@ -57,7 +65,11 @@
             // Drop__EliminationStyle
             // 
             this.Drop__EliminationStyle.FormattingEnabled = true;
-            this.Drop__EliminationStyle.Location = new System.Drawing.Point(57, 430);
+            this.Drop__EliminationStyle.Items.AddRange(new object[] {
+            "Single Elimination",
+            "Best of 5 Series",
+            "Best of 7 Series"});
+            this.Drop__EliminationStyle.Location = new System.Drawing.Point(57, 507);
             this.Drop__EliminationStyle.Name = "Drop__EliminationStyle";
             this.Drop__EliminationStyle.Size = new System.Drawing.Size(181, 28);
             this.Drop__EliminationStyle.TabIndex = 1;
@@ -66,7 +78,11 @@
             // Drop_SelectBracket
             // 
             this.Drop_SelectBracket.FormattingEnabled = true;
-            this.Drop_SelectBracket.Location = new System.Drawing.Point(57, 304);
+            this.Drop_SelectBracket.Items.AddRange(new object[] {
+            "4 Teams",
+            "8 Teams",
+            "16 Teams"});
+            this.Drop_SelectBracket.Location = new System.Drawing.Point(57, 398);
             this.Drop_SelectBracket.Name = "Drop_SelectBracket";
             this.Drop_SelectBracket.Size = new System.Drawing.Size(181, 28);
             this.Drop_SelectBracket.TabIndex = 2;
@@ -92,17 +108,17 @@
             // 
             // Button_NumRegGames
             // 
-            this.Button_NumRegGames.Location = new System.Drawing.Point(57, 201);
+            this.Button_NumRegGames.Location = new System.Drawing.Point(57, 307);
             this.Button_NumRegGames.Name = "Button_NumRegGames";
             this.Button_NumRegGames.Size = new System.Drawing.Size(181, 70);
             this.Button_NumRegGames.TabIndex = 5;
-            this.Button_NumRegGames.Text = "Select Number of Regular Season Games";
+            this.Button_NumRegGames.Text = "Select Number of Times Each Team Will Play Each Other";
             this.Button_NumRegGames.UseVisualStyleBackColor = true;
             this.Button_NumRegGames.Click += new System.EventHandler(this.Button_NumRegGames_Click);
             // 
             // Button_BracketSize
             // 
-            this.Button_BracketSize.Location = new System.Drawing.Point(56, 351);
+            this.Button_BracketSize.Location = new System.Drawing.Point(56, 445);
             this.Button_BracketSize.Name = "Button_BracketSize";
             this.Button_BracketSize.Size = new System.Drawing.Size(181, 42);
             this.Button_BracketSize.TabIndex = 6;
@@ -111,7 +127,7 @@
             // 
             // Button_EliminationStyle
             // 
-            this.Button_EliminationStyle.Location = new System.Drawing.Point(56, 473);
+            this.Button_EliminationStyle.Location = new System.Drawing.Point(56, 550);
             this.Button_EliminationStyle.Name = "Button_EliminationStyle";
             this.Button_EliminationStyle.Size = new System.Drawing.Size(181, 42);
             this.Button_EliminationStyle.TabIndex = 7;
@@ -168,11 +184,35 @@
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
+            // Button_NumTeams
+            // 
+            this.Button_NumTeams.Location = new System.Drawing.Point(56, 193);
+            this.Button_NumTeams.Name = "Button_NumTeams";
+            this.Button_NumTeams.Size = new System.Drawing.Size(181, 49);
+            this.Button_NumTeams.TabIndex = 14;
+            this.Button_NumTeams.Text = "Select Number of Teams";
+            this.Button_NumTeams.UseVisualStyleBackColor = true;
+            // 
+            // Drop_NumTeams
+            // 
+            this.Drop_NumTeams.FormattingEnabled = true;
+            this.Drop_NumTeams.Items.AddRange(new object[] {
+            "4 Teams",
+            "8 Teams",
+            "16 Teams",
+            "32 Teams"});
+            this.Drop_NumTeams.Location = new System.Drawing.Point(57, 146);
+            this.Drop_NumTeams.Name = "Drop_NumTeams";
+            this.Drop_NumTeams.Size = new System.Drawing.Size(181, 28);
+            this.Drop_NumTeams.TabIndex = 13;
+            // 
             // DefaultForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1180, 845);
+            this.Controls.Add(this.Button_NumTeams);
+            this.Controls.Add(this.Drop_NumTeams);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Button_ShowBracket);
             this.Controls.Add(this.Button_ShowStandings);
@@ -209,6 +249,8 @@
         private System.Windows.Forms.Button Button_ShowStandings;
         private System.Windows.Forms.Button Button_ShowBracket;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button Button_NumTeams;
+        private System.Windows.Forms.ComboBox Drop_NumTeams;
     }
 }
 
