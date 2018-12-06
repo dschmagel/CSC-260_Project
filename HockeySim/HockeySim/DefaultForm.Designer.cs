@@ -137,7 +137,7 @@
             // 
             // Button_SimRegSeason
             // 
-            this.Button_SimRegSeason.Location = new System.Drawing.Point(57, 646);
+            this.Button_SimRegSeason.Location = new System.Drawing.Point(56, 646);
             this.Button_SimRegSeason.Name = "Button_SimRegSeason";
             this.Button_SimRegSeason.Size = new System.Drawing.Size(278, 146);
             this.Button_SimRegSeason.TabIndex = 8;
