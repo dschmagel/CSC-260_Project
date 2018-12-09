@@ -1,0 +1,7 @@
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\HockeySimConsole\HockeySimConsole\bin\Debug\HockeySimConsole.exe.config
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\HockeySimConsole\HockeySimConsole\bin\Debug\HockeySimConsole.exe
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\HockeySimConsole\HockeySimConsole\bin\Debug\HockeySimConsole.pdb
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\HockeySimConsole\HockeySimConsole\obj\Debug\HockeySimConsole.csprojAssemblyReference.cache
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\HockeySimConsole\HockeySimConsole\obj\Debug\HockeySimConsole.csproj.CoreCompileInputs.cache
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\HockeySimConsole\HockeySimConsole\obj\Debug\HockeySimConsole.exe
+C:\Users\dschm\Desktop\Files\VIsual Studio\C# Projects\HockeySimConsole\HockeySimConsole\obj\Debug\HockeySimConsole.pdb
