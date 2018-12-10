@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace HockeySimConsole
 {
     class Standings
-    { 
+    {
+        // Class fields
         private int _wins;
         private int _otShLosses;
 
@@ -26,8 +27,8 @@ namespace HockeySimConsole
         public int AwayWin { get; set; }
         public int AwayLoss { get; set; }
         public int AwayOtShLoss { get; set; }
-        
 
+        // Class Constructor
         public Standings(string teamName)
         {
             this.TeamName = teamName;

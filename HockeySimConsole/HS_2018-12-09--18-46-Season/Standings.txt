@@ -1,0 +1,16 @@
+Cleveland   GP: 150  W: 87  L: 52  OT/SH: 11  P: 185  PCT: 0.753  ROW: 77  +/-: 36  Home: 48-22-5  Away: 39-30-6
+Milwaukee   GP: 150  W: 84  L: 57  OT/SH: 9  P: 177  PCT: 0.75  ROW: 81  +/-: 51  Home: 44-27-4  Away: 40-30-5
+Chicago     GP: 150  W: 82  L: 55  OT/SH: 13  P: 177  PCT: 0.73  ROW: 78  +/-: 35  Home: 49-25-1  Away: 33-30-12
+Baton Rouge  GP: 150  W: 78  L: 61  OT/SH: 11  P: 167  PCT: 0.723  ROW: 74  +/-: -28  Home: 36-34-5  Away: 42-27-6
+Dallas      GP: 150  W: 80  L: 53  OT/SH: 17  P: 177  PCT: 0.71  ROW: 75  +/-: 25  Home: 36-28-11  Away: 44-25-6
+Arlington   GP: 150  W: 73  L: 66  OT/SH: 11  P: 157  PCT: 0.707  ROW: 62  +/-: 1  Home: 36-31-8  Away: 37-35-3
+Madison     GP: 150  W: 73  L: 66  OT/SH: 11  P: 157  PCT: 0.707  ROW: 71  +/-: -15  Home: 34-35-6  Away: 39-31-5
+Colorado Springs  GP: 150  W: 78  L: 55  OT/SH: 17  P: 173  PCT: 0.703  ROW: 73  +/-: 33  Home: 41-27-7  Away: 37-28-10
+Rapid City  GP: 150  W: 76  L: 58  OT/SH: 16  P: 168  PCT: 0.7  ROW: 69  +/-: 11  Home: 36-33-6  Away: 40-25-10
+Howard      GP: 150  W: 73  L: 64  OT/SH: 13  P: 159  PCT: 0.7  ROW: 63  +/-: -24  Home: 37-32-6  Away: 36-32-7
+Boise       GP: 150  W: 73  L: 62  OT/SH: 15  P: 161  PCT: 0.693  ROW: 69  +/-: -4  Home: 39-31-5  Away: 34-31-10
+Seattle     GP: 150  W: 71  L: 66  OT/SH: 13  P: 155  PCT: 0.693  ROW: 62  +/-: -28  Home: 38-32-5  Away: 33-34-8
+Sioux Falls  GP: 150  W: 68  L: 67  OT/SH: 15  P: 151  PCT: 0.677  ROW: 63  +/-: -15  Home: 35-31-9  Away: 33-36-6
+Raleigh     GP: 150  W: 70  L: 63  OT/SH: 17  P: 157  PCT: 0.677  ROW: 65  +/-: -27  Home: 34-33-8  Away: 36-30-9
+El Paso     GP: 150  W: 68  L: 64  OT/SH: 18  P: 154  PCT: 0.667  ROW: 62  +/-: -27  Home: 35-31-9  Away: 33-33-9
+Boston      GP: 150  W: 66  L: 67  OT/SH: 17  P: 149  PCT: 0.663  ROW: 58  +/-: -24  Home: 34-31-10  Away: 32-36-7

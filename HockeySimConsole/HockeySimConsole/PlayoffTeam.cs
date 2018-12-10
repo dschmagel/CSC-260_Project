@@ -8,9 +8,11 @@ namespace HockeySimConsole
 {
     class PlayoffTeam
     {
+        // Class fields
         public string TeamName { get; set; }
         public int Seed { get; set; }
 
+        // Class Constructor
         public PlayoffTeam( string teamName, int seed)
         {
             this.TeamName = teamName;

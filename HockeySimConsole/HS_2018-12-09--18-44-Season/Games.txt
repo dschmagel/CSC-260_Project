@@ -1,0 +1,480 @@
+Arlington 1  Milwaukee 2  F
+Arlington 3  Milwaukee 4  F
+Arlington 5  Colorado Springs 4  F
+Arlington 2  Colorado Springs 3  F
+Arlington 2  Chicago 3  F
+Arlington 2  Chicago 3  F
+Arlington 5  El Paso 4  OT
+Arlington 2  El Paso 5  F
+Arlington 5  Madison 4  OT
+Arlington 4  Madison 3  OT
+Arlington 2  Boise 3  F
+Arlington 3  Boise 5  F
+Arlington 5  Rapid City 4  OT
+Arlington 3  Rapid City 1  F
+Arlington 4  Cleveland 3  OT
+Arlington 3  Cleveland 2  OT
+Arlington 5  Baton Rouge 2  F
+Arlington 5  Baton Rouge 2  F
+Arlington 4  Boston 3  F
+Arlington 1  Boston 5  F
+Arlington 4  Howard 1  F
+Arlington 2  Howard 0  F
+Arlington 1  Sioux Falls 3  F
+Arlington 2  Sioux Falls 5  F
+Arlington 4  Dallas 5  OT
+Arlington 5  Dallas 4  OT
+Arlington 4  Raleigh 6  F
+Arlington 0  Raleigh 5  F
+Arlington 2  Seattle 5  F
+Arlington 2  Seattle 3  SH
+Milwaukee 6  Arlington 4  F
+Milwaukee 4  Arlington 3  OT
+Milwaukee 2  Colorado Springs 4  F
+Milwaukee 2  Colorado Springs 3  F
+Milwaukee 3  Chicago 5  F
+Milwaukee 1  Chicago 5  F
+Milwaukee 3  El Paso 4  F
+Milwaukee 5  El Paso 4  F
+Milwaukee 4  Madison 6  F
+Milwaukee 3  Madison 6  F
+Milwaukee 2  Boise 3  F
+Milwaukee 1  Boise 2  F
+Milwaukee 4  Rapid City 2  F
+Milwaukee 4  Rapid City 1  F
+Milwaukee 1  Cleveland 2  OT
+Milwaukee 2  Cleveland 4  F
+Milwaukee 1  Baton Rouge 3  F
+Milwaukee 3  Baton Rouge 5  F
+Milwaukee 2  Boston 4  F
+Milwaukee 1  Boston 5  F
+Milwaukee 1  Howard 3  F
+Milwaukee 2  Howard 3  F
+Milwaukee 1  Sioux Falls 2  F
+Milwaukee 4  Sioux Falls 3  F
+Milwaukee 4  Dallas 3  F
+Milwaukee 4  Dallas 3  OT
+Milwaukee 0  Raleigh 3  F
+Milwaukee 5  Raleigh 4  F
+Milwaukee 3  Seattle 2  OT
+Milwaukee 3  Seattle 2  OT
+Colorado Springs 2  Arlington 3  F
+Colorado Springs 3  Arlington 2  F
+Colorado Springs 3  Milwaukee 4  OT
+Colorado Springs 4  Milwaukee 3  F
+Colorado Springs 6  Chicago 2  F
+Colorado Springs 3  Chicago 1  F
+Colorado Springs 4  El Paso 1  F
+Colorado Springs 5  El Paso 4  F
+Colorado Springs 5  Madison 2  F
+Colorado Springs 4  Madison 3  F
+Colorado Springs 2  Boise 3  F
+Colorado Springs 0  Boise 4  F
+Colorado Springs 1  Rapid City 4  F
+Colorado Springs 3  Rapid City 1  F
+Colorado Springs 6  Cleveland 0  F
+Colorado Springs 4  Cleveland 3  F
+Colorado Springs 6  Baton Rouge 2  F
+Colorado Springs 3  Baton Rouge 2  OT
+Colorado Springs 4  Boston 5  OT
+Colorado Springs 2  Boston 4  F
+Colorado Springs 4  Howard 3  F
+Colorado Springs 2  Howard 3  F
+Colorado Springs 2  Sioux Falls 4  F
+Colorado Springs 3  Sioux Falls 1  F
+Colorado Springs 4  Dallas 3  F
+Colorado Springs 4  Dallas 3  F
+Colorado Springs 0  Raleigh 2  F
+Colorado Springs 4  Raleigh 2  F
+Colorado Springs 3  Seattle 1  F
+Colorado Springs 5  Seattle 4  F
+Chicago 4  Arlington 3  F
+Chicago 6  Arlington 5  F
+Chicago 2  Milwaukee 3  F
+Chicago 4  Milwaukee 2  F
+Chicago 3  Colorado Springs 4  F
+Chicago 5  Colorado Springs 4  F
+Chicago 3  El Paso 4  OT
+Chicago 3  El Paso 4  OT
+Chicago 1  Madison 5  F
+Chicago 3  Madison 2  F
+Chicago 5  Boise 4  F
+Chicago 4  Boise 6  F
+Chicago 5  Rapid City 3  F
+Chicago 2  Rapid City 3  OT
+Chicago 3  Cleveland 4  SH
+Chicago 4  Cleveland 2  F
+Chicago 4  Baton Rouge 5  F
+Chicago 3  Baton Rouge 4  F
+Chicago 1  Boston 4  F
+Chicago 4  Boston 3  F
+Chicago 3  Howard 4  SH
+Chicago 4  Howard 5  F
+Chicago 3  Sioux Falls 4  F
+Chicago 5  Sioux Falls 0  F
+Chicago 4  Dallas 3  F
+Chicago 3  Dallas 4  SH
+Chicago 4  Raleigh 3  F
+Chicago 1  Raleigh 5  F
+Chicago 3  Seattle 1  F
+Chicago 1  Seattle 4  F
+El Paso 3  Arlington 4  OT
+El Paso 2  Arlington 3  F
+El Paso 4  Milwaukee 2  F
+El Paso 4  Milwaukee 2  F
+El Paso 3  Colorado Springs 1  F
+El Paso 4  Colorado Springs 3  SH
+El Paso 4  Chicago 3  F
+El Paso 6  Chicago 4  F
+El Paso 4  Madison 5  F
+El Paso 0  Madison 3  F
+El Paso 3  Boise 4  OT
+El Paso 2  Boise 0  F
+El Paso 6  Rapid City 0  F
+El Paso 2  Rapid City 1  F
+El Paso 2  Cleveland 3  OT
+El Paso 3  Cleveland 4  F
+El Paso 5  Baton Rouge 3  F
+El Paso 4  Baton Rouge 3  F
+El Paso 2  Boston 3  SH
+El Paso 3  Boston 2  SH
+El Paso 4  Howard 5  SH
+El Paso 5  Howard 3  F
+El Paso 2  Sioux Falls 3  F
+El Paso 6  Sioux Falls 2  F
+El Paso 3  Dallas 2  F
+El Paso 2  Dallas 4  F
+El Paso 3  Raleigh 1  F
+El Paso 2  Raleigh 3  F
+El Paso 3  Seattle 4  OT
+El Paso 5  Seattle 4  F
+Madison 3  Arlington 2  F
+Madison 5  Arlington 1  F
+Madison 4  Milwaukee 2  F
+Madison 3  Milwaukee 4  F
+Madison 3  Colorado Springs 2  F
+Madison 4  Colorado Springs 2  F
+Madison 0  Chicago 4  F
+Madison 3  Chicago 4  F
+Madison 3  El Paso 5  F
+Madison 6  El Paso 4  F
+Madison 3  Boise 4  F
+Madison 3  Boise 6  F
+Madison 4  Rapid City 2  F
+Madison 2  Rapid City 1  F
+Madison 2  Cleveland 3  F
+Madison 3  Cleveland 5  F
+Madison 1  Baton Rouge 2  SH
+Madison 4  Baton Rouge 5  F
+Madison 0  Boston 5  F
+Madison 2  Boston 5  F
+Madison 3  Howard 5  F
+Madison 0  Howard 4  F
+Madison 2  Sioux Falls 4  F
+Madison 0  Sioux Falls 3  F
+Madison 2  Dallas 3  SH
+Madison 4  Dallas 2  F
+Madison 6  Raleigh 5  F
+Madison 6  Raleigh 3  F
+Madison 5  Seattle 3  F
+Madison 3  Seattle 6  F
+Boise 3  Arlington 6  F
+Boise 4  Arlington 2  F
+Boise 6  Milwaukee 2  F
+Boise 4  Milwaukee 1  F
+Boise 3  Colorado Springs 1  F
+Boise 3  Colorado Springs 4  SH
+Boise 3  Chicago 2  F
+Boise 4  Chicago 2  F
+Boise 2  El Paso 4  F
+Boise 2  El Paso 4  F
+Boise 2  Madison 3  F
+Boise 5  Madison 3  F
+Boise 3  Rapid City 5  F
+Boise 6  Rapid City 2  F
+Boise 3  Cleveland 0  F
+Boise 2  Cleveland 3  F
+Boise 4  Baton Rouge 3  SH
+Boise 2  Baton Rouge 4  F
+Boise 2  Boston 4  F
+Boise 2  Boston 3  F
+Boise 4  Howard 3  F
+Boise 3  Howard 2  F
+Boise 3  Sioux Falls 2  SH
+Boise 3  Sioux Falls 1  F
+Boise 4  Dallas 5  F
+Boise 5  Dallas 2  F
+Boise 2  Raleigh 3  F
+Boise 2  Raleigh 5  F
+Boise 3  Seattle 2  F
+Boise 2  Seattle 3  SH
+Rapid City 1  Arlington 3  F
+Rapid City 4  Arlington 3  F
+Rapid City 2  Milwaukee 3  SH
+Rapid City 4  Milwaukee 5  F
+Rapid City 3  Colorado Springs 5  F
+Rapid City 2  Colorado Springs 3  SH
+Rapid City 1  Chicago 4  F
+Rapid City 4  Chicago 3  SH
+Rapid City 5  El Paso 2  F
+Rapid City 4  El Paso 3  F
+Rapid City 3  Madison 5  F
+Rapid City 2  Madison 3  SH
+Rapid City 3  Boise 2  F
+Rapid City 4  Boise 2  F
+Rapid City 5  Cleveland 4  F
+Rapid City 2  Cleveland 3  F
+Rapid City 2  Baton Rouge 5  F
+Rapid City 4  Baton Rouge 2  F
+Rapid City 5  Boston 4  F
+Rapid City 5  Boston 2  F
+Rapid City 3  Howard 4  SH
+Rapid City 3  Howard 2  SH
+Rapid City 3  Sioux Falls 2  F
+Rapid City 2  Sioux Falls 1  F
+Rapid City 5  Dallas 1  F
+Rapid City 0  Dallas 3  F
+Rapid City 2  Raleigh 6  F
+Rapid City 4  Raleigh 5  F
+Rapid City 3  Seattle 4  F
+Rapid City 5  Seattle 4  F
+Cleveland 4  Arlington 0  F
+Cleveland 2  Arlington 0  F
+Cleveland 1  Milwaukee 2  F
+Cleveland 3  Milwaukee 2  F
+Cleveland 2  Colorado Springs 4  F
+Cleveland 5  Colorado Springs 3  F
+Cleveland 2  Chicago 4  F
+Cleveland 2  Chicago 3  F
+Cleveland 1  El Paso 5  F
+Cleveland 4  El Paso 5  SH
+Cleveland 1  Madison 4  F
+Cleveland 0  Madison 1  F
+Cleveland 2  Boise 3  SH
+Cleveland 1  Boise 3  F
+Cleveland 3  Rapid City 5  F
+Cleveland 2  Rapid City 4  F
+Cleveland 3  Baton Rouge 4  F
+Cleveland 3  Baton Rouge 4  SH
+Cleveland 4  Boston 5  F
+Cleveland 5  Boston 6  SH
+Cleveland 1  Howard 2  SH
+Cleveland 4  Howard 1  F
+Cleveland 3  Sioux Falls 0  F
+Cleveland 3  Sioux Falls 4  F
+Cleveland 0  Dallas 2  F
+Cleveland 5  Dallas 4  F
+Cleveland 5  Raleigh 6  SH
+Cleveland 6  Raleigh 4  F
+Cleveland 2  Seattle 3  F
+Cleveland 1  Seattle 4  F
+Baton Rouge 3  Arlington 2  F
+Baton Rouge 2  Arlington 3  SH
+Baton Rouge 4  Milwaukee 5  SH
+Baton Rouge 2  Milwaukee 3  SH
+Baton Rouge 3  Colorado Springs 2  OT
+Baton Rouge 1  Colorado Springs 2  F
+Baton Rouge 3  Chicago 4  SH
+Baton Rouge 1  Chicago 3  F
+Baton Rouge 4  El Paso 3  F
+Baton Rouge 3  El Paso 1  F
+Baton Rouge 2  Madison 3  F
+Baton Rouge 2  Madison 1  F
+Baton Rouge 2  Boise 0  F
+Baton Rouge 4  Boise 3  F
+Baton Rouge 2  Rapid City 3  SH
+Baton Rouge 1  Rapid City 2  F
+Baton Rouge 1  Cleveland 4  F
+Baton Rouge 5  Cleveland 4  F
+Baton Rouge 1  Boston 6  F
+Baton Rouge 4  Boston 5  F
+Baton Rouge 1  Howard 2  F
+Baton Rouge 0  Howard 1  F
+Baton Rouge 5  Sioux Falls 1  F
+Baton Rouge 4  Sioux Falls 3  F
+Baton Rouge 5  Dallas 3  F
+Baton Rouge 5  Dallas 4  SH
+Baton Rouge 4  Raleigh 5  F
+Baton Rouge 3  Raleigh 2  OT
+Baton Rouge 2  Seattle 3  F
+Baton Rouge 4  Seattle 3  F
+Boston 2  Arlington 3  F
+Boston 1  Arlington 3  F
+Boston 4  Milwaukee 2  F
+Boston 2  Milwaukee 5  F
+Boston 3  Colorado Springs 1  F
+Boston 6  Colorado Springs 3  F
+Boston 2  Chicago 3  F
+Boston 4  Chicago 5  F
+Boston 2  El Paso 4  F
+Boston 4  El Paso 6  F
+Boston 5  Madison 4  OT
+Boston 2  Madison 0  F
+Boston 4  Boise 2  F
+Boston 3  Boise 2  OT
+Boston 2  Rapid City 1  OT
+Boston 4  Rapid City 3  OT
+Boston 2  Cleveland 3  F
+Boston 1  Cleveland 5  F
+Boston 3  Baton Rouge 2  SH
+Boston 4  Baton Rouge 1  F
+Boston 4  Howard 0  F
+Boston 1  Howard 4  F
+Boston 3  Sioux Falls 4  OT
+Boston 3  Sioux Falls 2  F
+Boston 2  Dallas 4  F
+Boston 4  Dallas 3  OT
+Boston 6  Raleigh 3  F
+Boston 1  Raleigh 3  F
+Boston 2  Seattle 6  F
+Boston 4  Seattle 3  F
+Howard 3  Arlington 4  F
+Howard 5  Arlington 1  F
+Howard 1  Milwaukee 2  F
+Howard 3  Milwaukee 1  F
+Howard 2  Colorado Springs 3  F
+Howard 2  Colorado Springs 5  F
+Howard 3  Chicago 4  F
+Howard 3  Chicago 4  F
+Howard 3  El Paso 4  SH
+Howard 5  El Paso 3  F
+Howard 0  Madison 2  F
+Howard 3  Madison 2  F
+Howard 5  Boise 2  F
+Howard 2  Boise 5  F
+Howard 3  Rapid City 5  F
+Howard 3  Rapid City 2  F
+Howard 4  Cleveland 3  F
+Howard 4  Cleveland 3  F
+Howard 4  Baton Rouge 5  F
+Howard 3  Baton Rouge 1  F
+Howard 3  Boston 0  F
+Howard 1  Boston 0  F
+Howard 4  Sioux Falls 3  OT
+Howard 5  Sioux Falls 3  F
+Howard 4  Dallas 2  F
+Howard 3  Dallas 1  F
+Howard 2  Raleigh 4  F
+Howard 4  Raleigh 3  F
+Howard 5  Seattle 6  F
+Howard 3  Seattle 2  OT
+Sioux Falls 6  Arlington 2  F
+Sioux Falls 3  Arlington 4  F
+Sioux Falls 4  Milwaukee 0  F
+Sioux Falls 4  Milwaukee 1  F
+Sioux Falls 3  Colorado Springs 2  F
+Sioux Falls 5  Colorado Springs 2  F
+Sioux Falls 3  Chicago 2  F
+Sioux Falls 1  Chicago 4  F
+Sioux Falls 3  El Paso 4  OT
+Sioux Falls 5  El Paso 3  F
+Sioux Falls 4  Madison 0  F
+Sioux Falls 0  Madison 1  F
+Sioux Falls 1  Boise 4  F
+Sioux Falls 0  Boise 3  F
+Sioux Falls 4  Rapid City 3  OT
+Sioux Falls 4  Rapid City 2  F
+Sioux Falls 0  Cleveland 3  F
+Sioux Falls 5  Cleveland 3  F
+Sioux Falls 1  Baton Rouge 4  F
+Sioux Falls 2  Baton Rouge 3  OT
+Sioux Falls 3  Boston 2  OT
+Sioux Falls 1  Boston 2  F
+Sioux Falls 3  Howard 2  F
+Sioux Falls 4  Howard 5  OT
+Sioux Falls 4  Dallas 3  OT
+Sioux Falls 5  Dallas 6  F
+Sioux Falls 4  Raleigh 5  F
+Sioux Falls 3  Raleigh 4  F
+Sioux Falls 4  Seattle 2  F
+Sioux Falls 3  Seattle 1  F
+Dallas 4  Arlington 2  F
+Dallas 4  Arlington 5  F
+Dallas 1  Milwaukee 3  F
+Dallas 6  Milwaukee 5  F
+Dallas 4  Colorado Springs 3  OT
+Dallas 3  Colorado Springs 0  F
+Dallas 5  Chicago 2  F
+Dallas 5  Chicago 4  F
+Dallas 4  El Paso 1  F
+Dallas 5  El Paso 1  F
+Dallas 2  Madison 3  F
+Dallas 3  Madison 2  F
+Dallas 3  Boise 5  F
+Dallas 2  Boise 4  F
+Dallas 3  Rapid City 4  F
+Dallas 0  Rapid City 1  F
+Dallas 4  Cleveland 3  F
+Dallas 0  Cleveland 2  F
+Dallas 2  Baton Rouge 5  F
+Dallas 4  Baton Rouge 5  F
+Dallas 0  Boston 1  F
+Dallas 1  Boston 3  F
+Dallas 4  Howard 6  F
+Dallas 3  Howard 2  OT
+Dallas 3  Sioux Falls 4  F
+Dallas 4  Sioux Falls 3  F
+Dallas 3  Raleigh 2  F
+Dallas 3  Raleigh 4  OT
+Dallas 4  Seattle 2  F
+Dallas 3  Seattle 5  F
+Raleigh 5  Arlington 4  F
+Raleigh 2  Arlington 6  F
+Raleigh 0  Milwaukee 6  F
+Raleigh 2  Milwaukee 5  F
+Raleigh 4  Colorado Springs 3  F
+Raleigh 6  Colorado Springs 2  F
+Raleigh 1  Chicago 4  F
+Raleigh 3  Chicago 1  F
+Raleigh 3  El Paso 4  OT
+Raleigh 4  El Paso 5  SH
+Raleigh 1  Madison 4  F
+Raleigh 6  Madison 5  F
+Raleigh 3  Boise 4  F
+Raleigh 3  Boise 4  F
+Raleigh 5  Rapid City 4  F
+Raleigh 4  Rapid City 2  F
+Raleigh 5  Cleveland 2  F
+Raleigh 1  Cleveland 2  F
+Raleigh 4  Baton Rouge 2  F
+Raleigh 4  Baton Rouge 1  F
+Raleigh 5  Boston 4  F
+Raleigh 3  Boston 5  F
+Raleigh 2  Howard 3  F
+Raleigh 3  Howard 1  F
+Raleigh 3  Sioux Falls 5  F
+Raleigh 2  Sioux Falls 3  F
+Raleigh 3  Dallas 4  F
+Raleigh 1  Dallas 3  F
+Raleigh 3  Seattle 4  OT
+Raleigh 3  Seattle 2  F
+Seattle 3  Arlington 4  SH
+Seattle 4  Arlington 2  F
+Seattle 5  Milwaukee 6  F
+Seattle 1  Milwaukee 6  F
+Seattle 3  Colorado Springs 2  F
+Seattle 2  Colorado Springs 4  F
+Seattle 3  Chicago 2  F
+Seattle 3  Chicago 1  F
+Seattle 3  El Paso 4  SH
+Seattle 2  El Paso 5  F
+Seattle 4  Madison 5  OT
+Seattle 3  Madison 4  F
+Seattle 1  Boise 2  SH
+Seattle 3  Boise 2  F
+Seattle 4  Rapid City 2  F
+Seattle 4  Rapid City 2  F
+Seattle 5  Cleveland 4  F
+Seattle 4  Cleveland 6  F
+Seattle 5  Baton Rouge 3  F
+Seattle 3  Baton Rouge 4  F
+Seattle 2  Boston 3  SH
+Seattle 4  Boston 5  SH
+Seattle 3  Howard 2  F
+Seattle 3  Howard 4  OT
+Seattle 4  Sioux Falls 5  F
+Seattle 4  Sioux Falls 5  F
+Seattle 3  Dallas 4  F
+Seattle 3  Dallas 2  F
+Seattle 3  Raleigh 4  SH
+Seattle 5  Raleigh 3  F

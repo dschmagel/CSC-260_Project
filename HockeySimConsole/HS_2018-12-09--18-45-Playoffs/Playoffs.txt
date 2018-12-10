@@ -1,0 +1,55 @@
+Round of 16
+
+Seattle 2  Boston 1  OT
+Seattle: 1-0
+
+Arlington 2  Sioux Falls 4  F
+Sioux Falls: 1-0
+
+Dallas 3  Milwaukee 5  F
+Milwaukee: 1-0
+
+Baton Rouge 2  Colorado Springs 4  F
+Colorado Springs: 1-0
+
+Cleveland 4  Boise 6  F
+Boise: 1-0
+
+Madison 4  Raleigh 0  F
+Madison: 1-0
+
+Rapid City 5  Howard 4  F
+Rapid City: 1-0
+
+Chicago 2  El Paso 1  F
+Chicago: 1-0
+
+Quarterfinals
+
+
+Sioux Falls 6  Seattle 3  F
+Sioux Falls: 1-0
+
+Colorado Springs 4  Milwaukee 2  F
+Colorado Springs: 1-0
+
+Madison 3  Boise 6  F
+Boise: 1-0
+
+Chicago 5  Rapid City 2  F
+Chicago: 1-0
+
+Semifinals
+
+
+Colorado Springs 2  Sioux Falls 4  F
+Sioux Falls: 1-0
+
+Chicago 5  Boise 3  F
+Chicago: 1-0
+
+Finals
+
+
+Chicago 3  Sioux Falls 0  F
+Chicago: 1-0

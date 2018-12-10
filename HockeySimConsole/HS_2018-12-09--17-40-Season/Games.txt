@@ -1,0 +1,12 @@
+Avalanche 2  Rush 4  F
+Avalanche 1  Eagles 3  F
+Avalanche 5  Stampede 2  F
+Rush 4  Avalanche 2  F
+Rush 5  Eagles 3  F
+Rush 2  Stampede 4  F
+Eagles 1  Avalanche 2  SH
+Eagles 3  Rush 2  SH
+Eagles 4  Stampede 5  SH
+Stampede 1  Avalanche 2  SH
+Stampede 5  Rush 2  F
+Stampede 4  Eagles 5  F

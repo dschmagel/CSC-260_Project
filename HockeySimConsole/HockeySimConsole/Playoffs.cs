@@ -8,11 +8,13 @@ namespace HockeySimConsole
 {
     class Playoffs
     {
+        // Class fields
         List<Standings> Teams { get; set; }
         int BracketSize { get; set; }
         int GamesPerSeries { get; set; }
         public PlayoffTeam Champion { get; set; } 
 
+        // Class Constructor
         public Playoffs(List<Standings> teams, int bracketSize, int gamesPerSeries )
         {
             this.Teams = teams;
@@ -20,16 +22,19 @@ namespace HockeySimConsole
             this.GamesPerSeries = gamesPerSeries;
         }
 
+        // Method tha simulates the playoffs
         public void simPlayoffs()
         {
+            // Logging settup
             string dir = System.AppContext.BaseDirectory;
             dir = dir.Substring(0, dir.Length - 27);
 
             string date = DateTime.Now.ToString("yyyy-MM-dd--HH-mm");
-            string folder = dir + "HS_Playoffs-" + date;
+            string folder = dir + "HS_" + date + "-Playoffs";
             System.IO.Directory.CreateDirectory(folder);
             string playoffsPath = folder + "/" + "Playoffs.txt";
 
+            // Extracting playoff teams
             List<PlayoffTeam> playoffTeamNames = new List<PlayoffTeam>();
 
             int i = 1;
@@ -39,6 +44,16 @@ namespace HockeySimConsole
                 i++;
             }
 
+
+            // In each of the next 3 if statments, each type of valid playoff bracket is simulated
+            // Each is setup as in a standerd bracket format rules.
+            // Ex: In a 4 team bracket, the 1 seed faces the 4 seed and the 2 seed faces the 3 seed;
+            // After each round, the bracket rules are followed the determine the next round match up
+            // In the 4 team bracket example, the winner of the 1 and 4 seeded teams face the winner of the 2 and 3 seeded teams
+            // This continues untill a champion is named
+
+
+            // 4 Team bracket 
             if (BracketSize == 4)
             {
                 PlayoffTeam seed1 = playoffTeamNames.Single(s => s.Seed == 1);
@@ -109,6 +124,7 @@ namespace HockeySimConsole
 
             }
 
+            // 8 Team bracket 
             if (BracketSize == 8)
             {
                 PlayoffTeam seed1 = playoffTeamNames.Single(s => s.Seed == 1);
@@ -257,6 +273,7 @@ namespace HockeySimConsole
 
             }
 
+            // 16 Team bracket 
             if (BracketSize == 16)
             {
                 PlayoffTeam seed1 = playoffTeamNames.Single(s => s.Seed == 1);

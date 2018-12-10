@@ -8,6 +8,7 @@ namespace HockeySimConsole
 {
     class PlayoffRound
     {
+        // Class fields
         protected PlayoffTeam Team1 { get; set; }
         protected PlayoffTeam Team2 { get; set; }
         public int Team1Wins { get; set; }
@@ -16,6 +17,7 @@ namespace HockeySimConsole
         public int SeriesWinner { get; set; }
         string _filePath;
 
+        // Class Constructor
         public PlayoffRound(PlayoffTeam team1, PlayoffTeam team2, int numOfGames, string filePath)
         {
             this.Team1 = team1;
@@ -26,11 +28,14 @@ namespace HockeySimConsole
             this._filePath = filePath;
         }
 
+        // Method for simulating a playoff round
         public void simRound()
         {
             //Console.WriteLine("Enter Playoff Round");
             Console.WriteLine();
             System.IO.File.AppendAllText(_filePath, Environment.NewLine + Environment.NewLine);
+
+            // Single elimination
 
             if (NumOfGames == 1)
             {
@@ -50,6 +55,8 @@ namespace HockeySimConsole
                     Team2Wins++;
                 }
             }
+
+            // Best of 5
 
             else if (NumOfGames == 5)
             {
@@ -81,6 +88,8 @@ namespace HockeySimConsole
                     SeriesWinner = 2;
                 }
             }
+
+            // Best of 7
 
             else if (NumOfGames == 7)
             {

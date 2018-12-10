@@ -8,11 +8,12 @@ namespace HockeySimConsole
 {
     public class RegGame : Game
     {
-        
+        // Class fields
         public bool Overtime { get; set; }
         public bool Shootout { get; set; } 
         public int Diff { get; set; }
 
+        // Class Constructor
         public RegGame(string team1, string team2)
         {
             this.Team1 = team1;
@@ -26,6 +27,7 @@ namespace HockeySimConsole
             this.BoxScore = "";
         }
 
+        // Method that simulates the games
         public override void simGame()
         {
             int period = 1;
@@ -39,9 +41,11 @@ namespace HockeySimConsole
                 period++;
             }
 
+            // Teams are tied after regulation
             if (Team1Score == Team2Score)
-                _regOvertime();
+                regOvertime();
 
+            // Winner in regulation
             else
             {
                 if (Team1Score > Team2Score)
@@ -61,16 +65,20 @@ namespace HockeySimConsole
             }
         }
 
-        private void _regOvertime()
+        // Overtime!
+        private void regOvertime()
         {
-
+            // Random number to determine what happens next 
             int ot = random.Next(0, 4);
             //Console.WriteLine(ot);
 
+            // Game goes to a shootout
             if (ot < 2)
             {
-                _shootout();
+                shootout();
             }
+
+            // A winner is determined
 
             else if (ot == 2)
             {
@@ -91,7 +99,8 @@ namespace HockeySimConsole
             }
         }
 
-        private void _shootout()
+        // Shooutout method
+        private void shootout()
         {
             Shootout = true;
             int sh = random.Next(1, 7);

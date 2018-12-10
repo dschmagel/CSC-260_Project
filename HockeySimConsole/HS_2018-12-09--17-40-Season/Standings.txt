@@ -1,0 +1,4 @@
+Avalanche   GP: 6  W: 3  L: 3  OT/SH: 0  P: 6  PCT: 0.75  ROW: 1  +/-: -1  Home: 2-1-0  Away: 1-2-0
+Rush        GP: 6  W: 3  L: 2  OT/SH: 1  P: 7  PCT: 0.667  ROW: 3  +/-: 0  Home: 1-1-1  Away: 2-1-0
+Stampede    GP: 6  W: 3  L: 2  OT/SH: 1  P: 7  PCT: 0.667  ROW: 2  +/-: 1  Home: 2-1-0  Away: 1-1-1
+Eagles      GP: 6  W: 3  L: 1  OT/SH: 2  P: 8  PCT: 0.583  ROW: 2  +/-: 0  Home: 2-1-0  Away: 1-0-2
